@@ -1,0 +1,19 @@
+#Cara run:
+
+
+
+#Untuk membersihkan isi folder, ini pilihan opsional
+
+foamCleanTutorials
+
+
+
+#Untuk generate mesh dan cek kualitas mesh
+
+blockMesh
+
+checkMesh
+
+
+
+

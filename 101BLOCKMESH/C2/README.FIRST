@@ -1,0 +1,19 @@
+#Cara convert mesh dari fluent (.msh) menjadi format yang bisa dibaca oleh OpenFOAM:
+
+
+
+#Untuk membersihkan isi folder, ini pilihan opsional
+
+foamCleanTutorials
+
+
+
+#Untuk generate convert fluent mesh dan cek kualitas mesh
+
+fluent3DMeshToFoam blokC2.msh
+
+checkMesh
+
+
+
+

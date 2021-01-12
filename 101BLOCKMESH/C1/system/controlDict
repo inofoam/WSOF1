@@ -46,47 +46,4 @@ runTimeModifiable true;
 
 // ************************************************************************* //
 
-functions
-{
 
-///////////////////////////////////////////////////////////////////////////
-
-minmaxdomain
-{
-    type fieldMinMax;
-
-    functionObjectLibs ("libfieldFunctionObjects.so");
-
-    enabled true; //true or false
-
-    mode component;
-
-    writeControl timeStep;
-    writeInterval 1;
-
-    log true;
-
-    fields (p U);
-}
-
-///////////////////////////////////////////////////////////////////////////
-
-///////////////////////////////////////////////////////////////////////////
-/*
-residuals
-{
-	functionObjectLibs ("libutilityFunctionObjects.so");
-
-	type residuals;
-
-	enabled true; 
-
-	writeControl timeStep;
-	writeInterval 1;
-
-	fields (p U);
-}
-*/
-///////////////////////////////////////////////////////////////////////////
-
-};
